@@ -1,0 +1,241 @@
+nav{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 80px;
+   background-color: white;
+   position: fixed;
+
+   border-bottom: 2px solid #ddd;
+}
+.langscape{
+   
+}
+.langscape img{
+    width: 170px;
+}
+ul{
+    text-align: center;
+   
+  margin-left: 200px;
+ 
+    width: 60%;
+}
+.lang{
+    margin-right: 15px;
+  float: right;
+  line-height: 80px;
+  position: relative;
+  border-radius: 8px;
+
+ 
+}
+.eng{
+    padding: 7px;
+    border-radius:10px 10px 10px 10px;
+    border-color: #00dda4;
+    background-color: white;
+    
+    
+}
+
+ul li{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+    list-style: none;
+    display: inline;
+    width: 60%;
+   
+   
+}
+.co {
+    color: white;
+
+}
+
+ul li:hover{
+    background-image: linear-gradient(to right #00c7cb, #00dca7);
+}
+
+#back{
+    border-radius: 10px;
+   padding: 7px;
+    color: white;
+background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to right, rgb(0, 183, 229) 0%, rgb(0, 199, 202) 35%, rgb(0, 238, 137) 100%);
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+ul li:hover{
+   
+    border-radius: 10px 10px 10px 10px;
+   
+    background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to right, rgb(0, 183, 229) 0%, rgb(0, 199, 202) 35%, rgb(0, 238, 137) 100%);
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* menu part start here */
+.menu{
+    display: flex;
+    background-color: black;
+    height:500px;
+    width: 100%;
+    background-image: url("https://www.langscape.com/wp-content/uploads/2019/03/banner1-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstside{
+    width: 50%;
+}
+aside{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+ font-weight:bold ;
+}
+.segment{
+    text-transform: capitalize;
+    
+    font-weight: lighter;
+    margin-top: 30px;
+    color:black;
+}
+.secondside{
+    width: 50%;
+    
+    height: 100%;
+}
+.secondside img{
+    height: auto;
+    width: 100%;
+}
+
+
+.background {
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.background a{
+    
+    text-decoration: none;
+}
+.getin{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+   .meesai2 img{
+    height: 100px;
+    width: 100px;
+   }
+  
+  }
+/*menu part statrs here */
+#view{
+    border-radius: 10px;
+    padding:5px 20px 5px 20px;
+     color: white;
+ background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
+   background-color: rgba(0, 0, 0, 0);
+   background-position-x: 0%;
+   background-position-y: 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-image: linear-gradient(to right, rgb(0, 183, 229) 0%, rgb(0, 199, 202) 35%, rgb(0, 238, 137) 100%);
+   background-size: auto;
+   background-origin: padding-box;
+   background-clip: border-box;
+}
+
+.fo{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sha{
+    box-shadow: px 4px 13px 4px rgba(0,0,0,0.1);
+    background: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 450px;
+    height: 450px;
+}
+
+
+/* menu parts end here */
+
+/* why langscape */
+.why-lagnscape{
+    height:800px;
+    width:100%;
+    background-image: url("https://www.langscape.com/wp-content/uploads/2019/03/why-langscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sslide{
+    background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
+   background-color: rgba(0, 0, 0, 0);
+   background-position-x: 0%;
+   background-position-y: 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-image: linear-gradient(to right, rgb(0, 183, 229) 0%, rgb(0, 199, 202) 35%, rgb(0, 238, 137) 100%);
+   background-size: auto;
+   background-origin: padding-box;
+   background-clip: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   background-repeat: no-repeat;
+    opacity: 60%;
+    height: 500px;
+    border-radius: 20px;
+}
+.slide-item{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    z-index:-1;
+}
+/* why langscape  end*/
+
+
+
+.meesai{
+    width: 450px;
+    height: 450px;
+    
+}
+.meesai2{
+    width: 450px;
+    height: 450px;
+    
+}
