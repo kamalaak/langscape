@@ -27,14 +27,13 @@ ul{
   line-height: 80px;
   position: relative;
   border-radius: 8px;
-
+  border-color: rgb(0, 221, 164);
+background-color: white;
+padding: 5px;
  
 }
-.eng{
-    padding: 7px;
-    border-radius:10px 10px 10px 10px;
-    border-color: #00dda4;
-    background-color: white;
+.select{
+   line-height: 40px;
     
     
 }
@@ -47,6 +46,7 @@ ul li{
     width: 60%;
    
    
+   
 }
 .co {
     color: white;
@@ -54,7 +54,9 @@ ul li{
 }
 
 ul li:hover{
-    background-image: linear-gradient(to right #00c7cb, #00dca7);
+    background-color: #00c7cb;
+    border-radius:80px 80px 80px 80px;
+    transition:all 1s ease-in-out;
 }
 
 #back{
@@ -72,7 +74,7 @@ background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
   background-origin: padding-box;
   background-clip: border-box;
 }
-ul li:hover{
+/* ul li:hover{
    
     border-radius: 10px 10px 10px 10px;
    
@@ -86,7 +88,7 @@ ul li:hover{
   background-size: auto;
   background-origin: padding-box;
   background-clip: border-box;
-}
+} */
 
 ul li a{
     text-decoration: none;
@@ -96,6 +98,8 @@ ul li a:hover{
     text-decoration: none;
     color: black;
 }
+
+
 
 /* menu part start here */
 .menu{

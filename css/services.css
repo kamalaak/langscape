@@ -1,0 +1,116 @@
+nav{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 80px;
+   background-color: white;
+   position: fixed;
+
+   border-bottom: 2px solid #ddd;
+}
+.langscape{
+   
+}
+.langscape img{
+    width: 170px;
+}
+ul{
+    text-align: center;
+   
+  margin-left: 200px;
+ 
+    width: 60%;
+}
+.lang{
+    margin-right: 15px;
+  float: right;
+  line-height: 80px;
+  position: relative;
+  border-radius: 8px;
+  border-color: rgb(0, 221, 164);
+background-color: white;
+padding: 5px;
+ 
+}
+.select{
+    line-height: 40px;
+     
+     
+ }
+ .img
+{
+    width: 100vw;
+    padding:0;
+    margin: 0;
+}
+.eng{
+    padding: 7px;
+    border-radius:10px 10px 10px 10px;
+    border-color: #00dda4;
+    background-color: white;
+    
+    
+}
+
+ul li{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+    list-style: none;
+    display: inline;
+    width: 60%;
+   
+   
+}
+/* .co {
+    color: white;
+
+} */
+
+ul li:hover{
+    background-color: #00c7cb;
+    border-radius:80px 80px 80px 80px;
+    transition:all 1s ease-in-out;
+}
+
+#back{
+    border-radius: 10px;
+   padding: 7px;
+    color: white;
+background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(to right, rgb(0, 183, 229) 0%, rgb(0, 199, 202) 35%, rgb(0, 238, 137) 100%);
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: black;
+}
+/* Services */
+
+
+.service{
+    
+   
+
+}
+.textt{
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+
+.br{
+    border-radius: 40px 40px 40px 40px;
+}
